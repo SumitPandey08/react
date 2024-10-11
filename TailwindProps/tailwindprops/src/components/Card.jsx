@@ -1,11 +1,11 @@
 import React from 'react'
 
-  function Card(){
+  function Card(props){
     return(
       <>
-      <img class="w-full" src="/img/card-top.jpg" alt="Sunset in the mountains"/>
+      <img class="w-full" src={props.image} alt="Sunset in the mountains"/>
       <div className="px-6 py-4">
-      <div className="font-bold text-xl mb-2">oooo</div>
+      <div className="font-bold text-xl mb-2">{props.username}</div>
       <p className="text-gray-700 text-base">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
       </p>
