@@ -29,7 +29,7 @@ function App() {
     <div
         className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat"
         style={{
-            backgroundImage: url('https://images.pexels.com/photos/3532540/pexels-photo-3532540.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'),
+            backgroundImage: `url("https://th.bing.com/th/id/OIP.-ukV9L81iNq6rIcLlCYY5QHaE7?rs=1&pid=ImgDetMain")`,
         }}
     >
         <div className="w-full">
